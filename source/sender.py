@@ -8,11 +8,11 @@ class Sender:
     def __init__(self):
         self.file = 'output/images.txt'
 
-    def sendWebhook(self, img_url):
+    def sendWebhook(self, imgUrl):
         webhook = DiscordWebhook(url=discordWebhook)
         embed = DiscordEmbed()
         embed.set_title(embedTitle)
-        embed.set_image(url=img_url)
+        embed.set_image(url=imgUrl)
         embed.set_footer(text=embedFooter)
         embed.set_color(hex(embedColor)[2:])
         webhook.add_embed(embed)
