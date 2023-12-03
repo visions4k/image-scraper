@@ -16,8 +16,8 @@ in config.py, there is variables ready to change.
 
 Once configured, you can run the scraper by 
 
-python scraper
++ python scraper
 or
-python3 scraper
++ python3 scraper
 
 
